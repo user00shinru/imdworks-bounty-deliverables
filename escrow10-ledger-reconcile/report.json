@@ -1,0 +1,181 @@
+{
+  "bounty": "imdworks escrow 10 \u2014 auditable bounty ledger reconciliation tool",
+  "fixture": {
+    "file": "fixture/ledger_fixture.json",
+    "seed": 539365384,
+    "snapshotBlock": 1,
+    "escrow": "0x037eda3adb1198021a9b2e88c22b464fd38db3f3",
+    "token": "0x104fbc016f4bb334d775a19e8a6510109ac63e00",
+    "events": 266,
+    "tokenEvents": 22
+  },
+  "derived": {
+    "locked": {
+      "3": 5000000,
+      "4": 4500000,
+      "5": 200000,
+      "7": 4500000,
+      "8": 1400000,
+      "9": 2200000,
+      "10": 3400000,
+      "11": 2600000,
+      "13": 2500000,
+      "14": 3200000,
+      "15": 4800000,
+      "16": 5600000,
+      "17": 4600000,
+      "18": 1300000,
+      "19": 1200000,
+      "20": 3400000,
+      "24": 2800000,
+      "25": 800000,
+      "27": 5000000,
+      "28": 4800000,
+      "29": 1600000,
+      "30": 3800000,
+      "31": 900000,
+      "33": 700000,
+      "34": 4400000,
+      "36": 100000,
+      "37": 400000,
+      "38": 2300000,
+      "39": 4000000,
+      "41": 5400000,
+      "42": 1600000,
+      "43": 3900000,
+      "44": 1400000,
+      "45": 2800000,
+      "46": 4400000,
+      "47": 4900000,
+      "48": 5600000,
+      "50": 800000,
+      "51": 5800000,
+      "53": 2400000,
+      "54": 2200000,
+      "55": 1600000,
+      "56": 4400000,
+      "58": 1300000,
+      "59": 1800000,
+      "60": 3600000,
+      "61": 4000000,
+      "62": 300000,
+      "63": 1200000,
+      "65": 3000000,
+      "66": 4100000,
+      "67": 1200000,
+      "68": 4500000,
+      "69": 3600000,
+      "70": 1400000,
+      "71": 3900000,
+      "72": 2400000,
+      "74": 2700000,
+      "76": 2400000,
+      "77": 1600000,
+      "78": 3900000,
+      "81": 4200000,
+      "82": 900000,
+      "83": 3400000,
+      "85": 3200000,
+      "86": 4700000,
+      "87": 4300000,
+      "88": 4000000,
+      "89": 2100000,
+      "90": 5200000,
+      "91": 1800000,
+      "92": 2400000,
+      "93": 4200000,
+      "94": 2400000,
+      "95": 2300000,
+      "96": 3600000,
+      "99": 3600000,
+      "101": 100000
+    },
+    "credit": {},
+    "total_locked": 228500000,
+    "total_claimable": 0,
+    "liabilities": 228500000,
+    "donations": 6700000,
+    "surplus": 6700000
+  },
+  "checks": [
+    {
+      "check": "totalLocked matches chain",
+      "ok": true,
+      "detail": "derived 228500000 vs chain 228500000"
+    },
+    {
+      "check": "totalClaimable matches chain",
+      "ok": true,
+      "detail": "derived 0 vs chain 0"
+    },
+    {
+      "check": "liabilities matches chain",
+      "ok": true,
+      "detail": "derived 228500000 vs chain 228500000"
+    },
+    {
+      "check": "per-wallet credits match chain",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "per-bounty locked matches chain",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "donations explain the token surplus",
+      "ok": true,
+      "detail": "tokenBalance 235200000 - liabilities 228500000 = 6700000; donations 6700000"
+    },
+    {
+      "check": "token balance never below liabilities (solvent)",
+      "ok": true,
+      "detail": "235200000 >= 228500000"
+    },
+    {
+      "check": "duplicate events were dropped, not counted",
+      "ok": true,
+      "detail": "7 duplicate(s) dropped"
+    },
+    {
+      "check": "no unrecognised escrow events",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "corruption_modes": [
+    {
+      "tamper": "extra BountyCreated (new position)",
+      "expected": "totals diverge",
+      "caught": true,
+      "detail": "derived 229600000 vs chain 228500000"
+    },
+    {
+      "tamper": "removed BountyCreated",
+      "expected": "locked under-reports",
+      "caught": true,
+      "detail": "ReconError: refund 1100000 > locked 0 for bounty 1"
+    },
+    {
+      "tamper": "removed Withdrawn event",
+      "expected": "credits over-report",
+      "caught": true,
+      "detail": "derived 1100000 vs chain 0"
+    },
+    {
+      "tamper": "refund status flipped",
+      "expected": "status rejected",
+      "caught": true,
+      "detail": "ReconError: unknown refund status 1 on bounty 1"
+    }
+  ],
+  "idempotency": [
+    {
+      "case": "full re-org replay (each event twice, same position)",
+      "stayed_consistent": true,
+      "detail": "duplicates dropped 273, liabilities 228500000"
+    }
+  ],
+  "verdict": "PASS"
+}

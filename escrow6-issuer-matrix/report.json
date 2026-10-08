@@ -1,0 +1,131 @@
+{
+  "bounty": "imdworks escrow 6 \u2014 model issuer restrictions without losing escrow credits",
+  "contract_under_test": "IMDWorksEscrow.sol (unmodified)",
+  "matrix": [
+    {
+      "token_mode": "exact-transfer (baseline)",
+      "escrow_support": "supported",
+      "tests": [
+        {
+          "name": "test_base_exactTransfer_supported",
+          "result": "PASS"
+        }
+      ],
+      "all_pass": true
+    },
+    {
+      "token_mode": "paused (all moves frozen)",
+      "escrow_support": "partially supported",
+      "tests": [
+        {
+          "name": "test_pause_blocksDeposit_butBookkeepingUnaffected",
+          "result": "PASS"
+        },
+        {
+          "name": "test_pausedToken_doesNotBlockExpireBookkeeping",
+          "result": "PASS"
+        }
+      ],
+      "all_pass": true
+    },
+    {
+      "token_mode": "sender restricted",
+      "escrow_support": "partially supported",
+      "tests": [
+        {
+          "name": "test_senderRestricted_depositReverts_withdrawRecoverable",
+          "result": "PASS"
+        }
+      ],
+      "all_pass": true
+    },
+    {
+      "token_mode": "recipient blocklisted",
+      "escrow_support": "partially supported",
+      "tests": [
+        {
+          "name": "test_recipientBlocked_withdrawReverts_creditStays",
+          "result": "PASS"
+        }
+      ],
+      "all_pass": true
+    },
+    {
+      "token_mode": "transfer tax / fee-on-transfer",
+      "escrow_support": "unsupported",
+      "tests": [
+        {
+          "name": "test_taxToken_rejected_unsupportedTransfer",
+          "result": "PASS"
+        },
+        {
+          "name": "test_taxToken_onWithdraw_rejectsAndPreservesCredit",
+          "result": "PASS"
+        }
+      ],
+      "all_pass": true
+    },
+    {
+      "token_mode": "false-return on failure",
+      "escrow_support": "unsupported",
+      "tests": [
+        {
+          "name": "test_falseReturn_revertsViaSafeERC20_noSilentLoss",
+          "result": "PASS"
+        }
+      ],
+      "all_pass": true
+    },
+    {
+      "token_mode": "no-return (pre-standard)",
+      "escrow_support": "supported",
+      "tests": [
+        {
+          "name": "test_noReturnToken_supported_exactTransfer",
+          "result": "PASS"
+        }
+      ],
+      "all_pass": true
+    },
+    {
+      "token_mode": "callback reentrancy",
+      "escrow_support": "defended",
+      "tests": [
+        {
+          "name": "test_callbackReentrancy_attempt_cannotDoubleSpend",
+          "result": "PASS"
+        }
+      ],
+      "all_pass": true
+    }
+  ],
+  "checks": [
+    {
+      "check": "every scheduled test executed",
+      "ok": true,
+      "missing": []
+    },
+    {
+      "check": "no test failed",
+      "ok": true,
+      "failing": []
+    },
+    {
+      "check": "balance-conservation assertion used",
+      "ok": true,
+      "invocations": 8
+    },
+    {
+      "check": "callback reentrancy attempt present",
+      "ok": true
+    },
+    {
+      "check": "flake8-clean runner",
+      "ok": true
+    }
+  ],
+  "forge_exit": 0,
+  "passed": 10,
+  "total": 10,
+  "verdict": "PASS"
+}
