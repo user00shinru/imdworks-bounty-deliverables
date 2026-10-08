@@ -1,0 +1,203 @@
+{
+  "suite": "imdworks escrow 3 — adversarial wallet sign-in regression suite",
+  "origin": "https://dapp.local",
+  "chainId": 4663,
+  "total": 32,
+  "passed": 32,
+  "durationMs": 192,
+  "verdict": "PASS",
+  "cases": [
+    {
+      "id": 1,
+      "name": "valid sign-in succeeds and yields a working session",
+      "ok": true,
+      "detail": "session for 0x3bc8287f1d872df4217283b7920d363f13cf39d8"
+    },
+    {
+      "id": 2,
+      "name": "replaying a completed verification is rejected",
+      "ok": true,
+      "detail": "NONCE_REPLAY"
+    },
+    {
+      "id": 3,
+      "name": "a failed signature burns the nonce (no retry window)",
+      "ok": true,
+      "detail": "WRONG_SIGNER then NONCE_REPLAY"
+    },
+    {
+      "id": 4,
+      "name": "two concurrent verifications of one nonce: exactly one succeeds",
+      "ok": true,
+      "detail": "fulfilled=1, rejected=1, loser=NONCE_REPLAY"
+    },
+    {
+      "id": 5,
+      "name": "winner holds the only session for that nonce",
+      "ok": true,
+      "detail": "sessions=1, winner=0x3bc8287f1d872df4217283b7920d363f13cf39d8"
+    },
+    {
+      "id": 6,
+      "name": "N-parallel (8) same-nonce: exactly one succeeds",
+      "ok": true,
+      "detail": "fulfilled=1"
+    },
+    {
+      "id": 7,
+      "name": "signature from another wallet is rejected",
+      "ok": true,
+      "detail": "WRONG_SIGNER"
+    },
+    {
+      "id": 8,
+      "name": "address swapped in the message body is rejected",
+      "ok": true,
+      "detail": "ADDRESS_MISMATCH"
+    },
+    {
+      "id": 9,
+      "name": "substituted URI is rejected",
+      "ok": true,
+      "detail": "URI_MISMATCH"
+    },
+    {
+      "id": 10,
+      "name": "lookalike origin (superset domain) is rejected",
+      "ok": true,
+      "detail": "URI_MISMATCH"
+    },
+    {
+      "id": 11,
+      "name": "request Origin header mismatch is rejected",
+      "ok": true,
+      "detail": "BAD_ORIGIN"
+    },
+    {
+      "id": 12,
+      "name": "challenge from a foreign origin is refused",
+      "ok": true,
+      "detail": "BAD_ORIGIN"
+    },
+    {
+      "id": 13,
+      "name": "chain-id substitution is rejected",
+      "ok": true,
+      "detail": "CHAIN_MISMATCH"
+    },
+    {
+      "id": 14,
+      "name": "challenge for another chain is refused",
+      "ok": true,
+      "detail": "BAD_CHAIN"
+    },
+    {
+      "id": 15,
+      "name": "nonce exactly at its deadline is still valid",
+      "ok": true,
+      "detail": "token=true"
+    },
+    {
+      "id": 16,
+      "name": "nonce one millisecond past its deadline is rejected",
+      "ok": true,
+      "detail": "NONCE_EXPIRED"
+    },
+    {
+      "id": 17,
+      "name": "message whose Expiration Time has passed is rejected",
+      "ok": true,
+      "detail": "MESSAGE_EXPIRED"
+    },
+    {
+      "id": 18,
+      "name": "Issued At in the future is rejected",
+      "ok": true,
+      "detail": "ISSUED_IN_FUTURE"
+    },
+    {
+      "id": 19,
+      "name": "malformed-message matrix: 15 variants all rejected",
+      "ok": true,
+      "detail": "all 15 refused"
+    },
+    {
+      "id": 20,
+      "name": "malformed signature encodings are all rejected",
+      "ok": true,
+      "detail": "all 5 refused"
+    },
+    {
+      "id": 21,
+      "name": "malformed request shapes are rejected",
+      "ok": true,
+      "detail": "all refused"
+    },
+    {
+      "id": 22,
+      "name": "a nonce issued to A cannot be used by B",
+      "ok": true,
+      "detail": "ADDRESS_MISMATCH"
+    },
+    {
+      "id": 23,
+      "name": "a nonce this service never issued is rejected",
+      "ok": true,
+      "detail": "UNKNOWN_NONCE"
+    },
+    {
+      "id": 24,
+      "name": "200 issued nonces are all distinct",
+      "ok": true,
+      "detail": "200/200 unique"
+    },
+    {
+      "id": 25,
+      "name": "session is rejected after its TTL",
+      "ok": true,
+      "detail": "SESSION_EXPIRED"
+    },
+    {
+      "id": 26,
+      "name": "unknown session token is rejected",
+      "ok": true,
+      "detail": "NO_SESSION"
+    },
+    {
+      "id": 27,
+      "name": "concurrent sessions stay bound to their own wallet",
+      "ok": true,
+      "detail": "0x3bc8287f1d872df4217283b7920d363f13cf39d8 / 0x3797126345fb5fb6a37629db55ec692173cfb458"
+    },
+    {
+      "id": 28,
+      "name": "a bad-signature attempt burns the nonce (no retry window)",
+      "ok": true,
+      "detail": "NONCE_REPLAY"
+    },
+    {
+      "id": 29,
+      "name": "a malformed request shape does NOT consume the nonce",
+      "ok": true,
+      "detail": "MALFORMED_REQUEST"
+    },
+    {
+      "id": 30,
+      "name": "VULN #1 ReplayableAuth: replay is DETECTED (implementation is exploitable)",
+      "ok": true,
+      "detail": "second verify succeeded — hole confirmed"
+    },
+    {
+      "id": 31,
+      "name": "VULN #2 RaceableAuth: double-spend race is DETECTED (both verifies win)",
+      "ok": true,
+      "detail": "fulfilled=2/2"
+    },
+    {
+      "id": 32,
+      "name": "parser round-trips a message with statement + resources",
+      "ok": true,
+      "detail": "all fields match"
+    }
+  ]
+}
