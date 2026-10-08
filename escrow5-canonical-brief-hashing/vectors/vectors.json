@@ -1,0 +1,1571 @@
+{
+ "accept": 55,
+ "count": 87,
+ "reject": 32,
+ "seed": 20261008,
+ "spec": "imdworks-brief-v1",
+ "token_used": "0x5fc5360d0400a0fd4f2af552add042d716f1d168",
+ "vectors": [
+  {
+   "expect": "0xb7c727e45982234b01ed74a6510e36a28addd736bb972fa96f1be5d2edeb2456",
+   "id": "v000",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "anchor: shape of a real board brief"
+  },
+  {
+   "expect": "0xb7c727e45982234b01ed74a6510e36a28addd736bb972fa96f1be5d2edeb2456",
+   "id": "v001",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "title corpus #0"
+  },
+  {
+   "expect": "0x6d845c923f473af64565fdc59c1850f1f315f93de57bfbb01ec78fe47713758d",
+   "id": "v002",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Bounty #1 \u2014 na\u00efve title",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "title corpus #1"
+  },
+  {
+   "expect": "0xd5ba3eeddabb9725ff3f1cc86938b778b960615956392ea06139a9aefc31f4e6",
+   "id": "v003",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "emoji ok \ud83e\udde7",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "title corpus #2"
+  },
+  {
+   "expect": "0xa02f2e51965ab9e7ef21baee57c7500dea78439b01c3b28f6dcf11ab19f84d51",
+   "id": "v004",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "a",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "title corpus #3"
+  },
+  {
+   "expect": "0x2910945fee5a36cc59a29a5891ec43f988b470376b67519a41a7a5524cdb4582",
+   "id": "v005",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "title corpus #4"
+  },
+  {
+   "expect": "0xb6879d86357ebfb15797d17fb5d4cc5f54773e7a233864bf45a4b30066488a00",
+   "id": "v006",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "tab\tinside",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "title corpus #5"
+  },
+  {
+   "expect": "0x5b62f2c596268ebc25769997b7d1e66954301ae4f0d1ceba6082f7828668a439",
+   "id": "v007",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "mixed\u00a0nbsp",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "title corpus #6"
+  },
+  {
+   "expect": "0x67e6e6e32fe4bcf92fd1e775d140c424033d27531a9e3425d250a4998ac91352",
+   "id": "v008",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "line\nfeed\ninside",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "title corpus #7"
+  },
+  {
+   "expect": "0xb45d8f0f287c10fdd0da315b4e33baac6e5a3ce95df172d4bb3ebf6106585e4f",
+   "id": "v009",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "plain description",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "description corpus #0"
+  },
+  {
+   "expect": "0x97f58f776da0b608181897c45dcb54f7eb8a298bd5f1f17782d70f99e00019d9",
+   "id": "v010",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "multi\nline\ndescription\n",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "description corpus #1"
+  },
+  {
+   "expect": "0xe2ffb22cb683e03d9154688ee89158675383dd110cb09f9bcac4b368369ef33d",
+   "id": "v011",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "with \"quotes\" and \\backslash\\",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "description corpus #2"
+  },
+  {
+   "expect": "0x115aa926c500852b2c634259be38e2e304519f17e560ff608de29085d6168ea1",
+   "id": "v012",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "unicode: \u5065\u4e09 \ud83e\udd77 caf\u00e9",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "description corpus #3"
+  },
+  {
+   "expect": "0x2f6ef2383d97880523ccb36ca2cf20b2811c77283479b214c7a29a76b068ebb3",
+   "id": "v013",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "control-safe\u0007? no \u2014 bell is allowed by spec",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "description corpus #4"
+  },
+  {
+   "expect": "0xdd832f1b93d8d7cb4b587fc547838c79f4552d58b3b037623a901761d849fe64",
+   "id": "v014",
+   "input": {
+    "criteria": "criteria one",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "criteria corpus #0"
+  },
+  {
+   "expect": "0x618fac6deed57197ea1f7ea34873659c0b64a3aef0500f914a7348d1761fedf9",
+   "id": "v015",
+   "input": {
+    "criteria": "\u2265 100,000 seeded cases",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "criteria corpus #1"
+  },
+  {
+   "expect": "0x9e3e56895de1723c20ca8361f1d4259fab98e4d81a9a820f81ef499aa1b2f382",
+   "id": "v016",
+   "input": {
+    "criteria": "Use `python3 run.py` (exit 0 = PASS).",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "criteria corpus #2"
+  },
+  {
+   "expect": "0xe1bb66ffea3d3cb12820e5dc3cdf382841f09dd287e0b3f782c49fb6d9c22734",
+   "id": "v017",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "0"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "reward=0"
+  },
+  {
+   "expect": "0x5bad0ad3ec21741c9dae799a2e5e7fe1e747450784a0a0c3b111b996b87b4452",
+   "id": "v018",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "reward=1"
+  },
+  {
+   "expect": "0x71be0a4d349a1ab7acaa10ad12b535f2844ffa838506ffdbfd6f97120d579963",
+   "id": "v019",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "reward=1000"
+  },
+  {
+   "expect": "0xb7c727e45982234b01ed74a6510e36a28addd736bb972fa96f1be5d2edeb2456",
+   "id": "v020",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "reward=1000000"
+  },
+  {
+   "expect": "0x146c990a154b101caecc6544586edad44b80b112e1843d4ba9b837164745b14f",
+   "id": "v021",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "18446744073709551615"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "reward=18446744073709551615"
+  },
+  {
+   "expect": "0x49154625c2e446f76d5b3e09877bd053a675836993d146ef2838d50eccb0f5d4",
+   "id": "v022",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "57896044618658097711785492504343953926634992332820282019728792003956564819968"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "reward=57896044618658097711785492504343953926634992332820282019728792003956564819968"
+  },
+  {
+   "expect": "0x39825bf6730ceb244e3f6778cb1fc2e2f2d59809a427f5aa90367b99b1834d96",
+   "id": "v023",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "reward=115792089237316195423570985008687907853269984665640564039457584007913129639935"
+  },
+  {
+   "expect": "0xf9156980ee42142c3ab8f31d4f5429f33400d056884798260130b5d2a7939832",
+   "id": "v024",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "123456789012345678901234567890"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "reward=123456789012345678901234567890"
+  },
+  {
+   "expect": "0x478a460464211478b0e3d6ba3af2bcf174603c4166d7b055aab0e38504c176c1",
+   "id": "v025",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "deadline=1"
+  },
+  {
+   "expect": "0x75b508ec2b7eb1694e51b163542498361054d936963d1038dad15d8af723681b",
+   "id": "v026",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1700000000"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "deadline=1700000000"
+  },
+  {
+   "expect": "0xb7c727e45982234b01ed74a6510e36a28addd736bb972fa96f1be5d2edeb2456",
+   "id": "v027",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "deadline=1791971670"
+  },
+  {
+   "expect": "0x0acca26e4f4ad17dc45b0eed7d6f7fb0e50947e7aa7e423f415adfb648959d84",
+   "id": "v028",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "9223372036854775807"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "deadline=9223372036854775807"
+  },
+  {
+   "expect": "0xe1bb66ffea3d3cb12820e5dc3cdf382841f09dd287e0b3f782c49fb6d9c22734",
+   "id": "v029",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": "0",
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "reward string=0"
+  },
+  {
+   "expect": "0xb7c727e45982234b01ed74a6510e36a28addd736bb972fa96f1be5d2edeb2456",
+   "id": "v030",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": "1000000",
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "reward string=1000000"
+  },
+  {
+   "expect": "0x39825bf6730ceb244e3f6778cb1fc2e2f2d59809a427f5aa90367b99b1834d96",
+   "id": "v031",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": "115792089237316195423570985008687907853269984665640564039457584007913129639935",
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "reward string=115792089237316195423570985008687907853269984665640564039457584007913129639935"
+  },
+  {
+   "expect": "0x25d210f97de954bbebb2913e561e6fcdf91657718b4b007959c96b0cfd73d744",
+   "id": "v032",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "caf\u00e9",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "NFC composed 'caf\u00e9'"
+  },
+  {
+   "expect": "not_nfc",
+   "id": "v033",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "cafe\u0301",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "NFD decomposed 'caf\u00e9' must be rejected (not_nfc)"
+  },
+  {
+   "expect": "0x16f0e5ebeba75faa131a2ca0923afbde369e02a8a3c75a7ecf004378e44d4f7a",
+   "id": "v034",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "a\nb",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "LF only"
+  },
+  {
+   "expect": "cr_character",
+   "id": "v035",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "a\r\nb",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "CRLF must be rejected, not silently rewritten"
+  },
+  {
+   "expect": "empty_field",
+   "id": "v036",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "title reject #0"
+  },
+  {
+   "expect": "cr_character",
+   "id": "v037",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "has\rcarriage",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "title reject #1"
+  },
+  {
+   "expect": "nul_byte",
+   "id": "v038",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "has\u0000nul",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "title reject #2"
+  },
+  {
+   "expect": "lone_surrogate",
+   "id": "v039",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "\ud800lone",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "title reject #3"
+  },
+  {
+   "expect": "empty_field",
+   "id": "v040",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "empty title"
+  },
+  {
+   "expect": "empty_field",
+   "id": "v041",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "empty description"
+  },
+  {
+   "expect": "empty_field",
+   "id": "v042",
+   "input": {
+    "criteria": "",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "empty criteria"
+  },
+  {
+   "expect": "missing_field",
+   "id": "v043",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness"
+   },
+   "kind": "reject",
+   "note": "missing field: token"
+  },
+  {
+   "expect": "missing_field",
+   "id": "v044",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "missing field: deadline"
+  },
+  {
+   "expect": "missing_field",
+   "id": "v045",
+   "input": {
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "missing field: criteria"
+  },
+  {
+   "expect": "unknown_field",
+   "id": "v046",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "extra": {
+     "$int": "1"
+    },
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "unknown top-level field"
+  },
+  {
+   "expect": "unknown_field",
+   "id": "v047",
+   "input": {
+    "__proto__": {
+     "x": {
+      "$int": "1"
+     }
+    },
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "prototype-pollution style __proto__ key"
+  },
+  {
+   "expect": "type",
+   "id": "v048",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": {
+     "a": {
+      "$int": "1"
+     }
+    },
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "title is an object"
+  },
+  {
+   "expect": "type",
+   "id": "v049",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": [
+     "a"
+    ],
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "title is an array"
+  },
+  {
+   "expect": "type",
+   "id": "v050",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": null,
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "title is null"
+  },
+  {
+   "expect": "type",
+   "id": "v051",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": {
+     "$int": "5"
+    },
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "description is a number"
+  },
+  {
+   "expect": "type",
+   "id": "v052",
+   "input": {
+    "criteria": [
+     "x"
+    ],
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "criteria is an array of strings"
+  },
+  {
+   "expect": "type",
+   "id": "v053",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$float": 1.5
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "reward is a float"
+  },
+  {
+   "expect": "type",
+   "id": "v054",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": true,
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "reward is a bool"
+  },
+  {
+   "expect": "type",
+   "id": "v055",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": null,
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "reward is null"
+  },
+  {
+   "expect": "type",
+   "id": "v056",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {},
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "deadline is an object"
+  },
+  {
+   "expect": "bad_token",
+   "id": "v057",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "token not 0x-prefixed"
+  },
+  {
+   "expect": "bad_token",
+   "id": "v058",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0xabc"
+   },
+   "kind": "reject",
+   "note": "token wrong length"
+  },
+  {
+   "expect": "bad_token",
+   "id": "v059",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0xzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"
+   },
+   "kind": "reject",
+   "note": "token non-hex chars"
+  },
+  {
+   "expect": "non_canonical_hex",
+   "id": "v060",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5FC5360D0400A0FD4F2AF552ADD042D716F1D168"
+   },
+   "kind": "reject",
+   "note": "token upper-case (non-canonical)"
+  },
+  {
+   "expect": "negative",
+   "id": "v061",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "-1"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "reward negative"
+  },
+  {
+   "expect": "not_canonical_decimal",
+   "id": "v062",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": "007",
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "reward leading zeros in string"
+  },
+  {
+   "expect": "not_canonical_decimal",
+   "id": "v063",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": "1e6",
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "reward exponential string"
+  },
+  {
+   "expect": "overflow_uint256",
+   "id": "v064",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "115792089237316195423570985008687907853269984665640564039457584007913129639936"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "reward overflow uint256"
+  },
+  {
+   "expect": "not_canonical_decimal",
+   "id": "v065",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": "+1000",
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "reject",
+   "note": "reward signed string"
+  },
+  {
+   "expect": "0xb7c727e45982234b01ed74a6510e36a28addd736bb972fa96f1be5d2edeb2456",
+   "id": "v066",
+   "input": {
+    "criteria": "Run at least 1,000 invariant sequences with depth 100.",
+    "deadline": {
+     "$int": "1791971670"
+    },
+    "description": "Model three creators, five workers, operator delegation.",
+    "reward": {
+     "$int": "1000000"
+    },
+    "title": "Build a stateful escrow accounting invariant harness",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "shuffled key order hashes identically"
+  },
+  {
+   "expect": "0xf67c22e6b663d7a47eb052700a3e669d500cc5b6466983a3f4ab387a696ce2c1",
+   "id": "v067",
+   "input": {
+    "criteria": "3\u4e2da\u00e910 X0 X21\u00e9Y\u00e93.Z\u00e910ZZX0 ",
+    "deadline": {
+     "$int": "1099511627776"
+    },
+    "description": "b0\u4e2d3\n3YYZY\u4e2d1  0",
+    "reward": {
+     "$int": "0"
+    },
+    "title": "\u00e90cZbX3310\u00e9\u00e9\n",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #0"
+  },
+  {
+   "expect": "0x39b868ff3068c46a41ae82ff3e05bcb1260873243c92050e817d0497d28580d7",
+   "id": "v068",
+   "input": {
+    "criteria": "\u00e9\u00e9\u00e9Xa1Z312ZbY.3\u00e9c",
+    "deadline": {
+     "$int": "1099511627776"
+    },
+    "description": "b 2a  13",
+    "reward": {
+     "$int": "999"
+    },
+    "title": "\u4e2d0123Z 1 3b\n\u00e9 ",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #1"
+  },
+  {
+   "expect": "0x4552feab08ea727e5201cc7f48f0db823cf4df8560e10328d4cbe678a0877e80",
+   "id": "v069",
+   "input": {
+    "criteria": "31.ac3\u4e2d\u00e92\nc",
+    "deadline": {
+     "$int": "1099511627776"
+    },
+    "description": "Z13bX\u4e2dY\n21bb3c\n2 XZab\n \u4e2d.YYX\u00e9ZXXZ 311X0 .bca.Z20c\u00e9\u00e9.",
+    "reward": {
+     "$int": "999"
+    },
+    "title": "a ",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #2"
+  },
+  {
+   "expect": "0xf26a39020b472ee8e5c2da576b6ebcf6c497319676ac2f142e731aaede6ac2ba",
+   "id": "v070",
+   "input": {
+    "criteria": "X1ab03\n\u00e90\u4e2d\u4e2d2\n1b",
+    "deadline": {
+     "$int": "1099511627776"
+    },
+    "description": "\u4e2d0..",
+    "reward": {
+     "$int": "1000000000000"
+    },
+    "title": "2\n\u4e2d0X121Y1ba\u00e912b\u4e2dY3c.X0 020a ",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #3"
+  },
+  {
+   "expect": "0xe3ad918a4739489cb2fa76cddcdfd94e5563d5729ce37598be3f77ab068deea8",
+   "id": "v071",
+   "input": {
+    "criteria": " \u4e2dca.\u00e90c\n.2",
+    "deadline": {
+     "$int": "1099511627776"
+    },
+    "description": "2bacZZ2\n332\n",
+    "reward": {
+     "$int": "1606938044258990275541962092341162602522202993782792835301376"
+    },
+    "title": "XZ1\u00e92c.cX1 10Y\n\u4e2dZ31",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #4"
+  },
+  {
+   "expect": "0xcb42f7b1aaaf4f3279dda9de8fc8356d479d7fa0a2772a9864d12ebc84635a1c",
+   "id": "v072",
+   "input": {
+    "criteria": "c\u00e9.0b2XX",
+    "deadline": {
+     "$int": "1099511627776"
+    },
+    "description": "0Y\u00e91 bZb1\u00e9X\n1cXY2 ",
+    "reward": {
+     "$int": "1"
+    },
+    "title": "1 YYXaXaXa\u00e9b031\u00e9b\u00e9\nX.3\nXbZc",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #5"
+  },
+  {
+   "expect": "0x28c1a396b8a8b56c92b1ff5086e19506f0a6bf7222a99c5b304239a370886cc7",
+   "id": "v073",
+   "input": {
+    "criteria": "3X2\u4e2daY2a\nZ\u4e2d1Z\u4e2d2c\u00e9.a\n",
+    "deadline": {
+     "$int": "1700000000"
+    },
+    "description": "1c02b0.a cZ \u4e2d\nYX2\n2c\u00e9Y0a\n2\u4e2d\u00e902",
+    "reward": {
+     "$int": "999"
+    },
+    "title": "1acZ3YY",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #6"
+  },
+  {
+   "expect": "0x3c9193db88d27d055509ed42bd653154bb365529523b53e0777c96044c6ccd0b",
+   "id": "v074",
+   "input": {
+    "criteria": "Z3a\u00e93b1 Y\n.a01\u4e2dZ21XcY20\u00e9a  ",
+    "deadline": {
+     "$int": "1099511627776"
+    },
+    "description": "b\u00e9\nYX1\u4e2da2c\u4e2dc3Z2Y0.\u00e9Y\n3",
+    "reward": {
+     "$int": "1606938044258990275541962092341162602522202993782792835301376"
+    },
+    "title": "X \u00e9\u00e91",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #7"
+  },
+  {
+   "expect": "0x7bd649169427a1b0428311c810aa89067e41150d0c0ec6ab8415b626581b14d2",
+   "id": "v075",
+   "input": {
+    "criteria": "XX ",
+    "deadline": {
+     "$int": "1"
+    },
+    "description": "Y2.Y\n\u00e9a3Z\n\n2 \u00e9b 00\u00e93\u00e9. ",
+    "reward": {
+     "$int": "999"
+    },
+    "title": " \n Za1c X.X\nY\u4e2da1bZ1Z3a1aa.121bZ\n\u4e2d",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #8"
+  },
+  {
+   "expect": "0x8a57ec51662271e476f9184c40a20984bfc14f89dabacf5e52af5b698f682e62",
+   "id": "v076",
+   "input": {
+    "criteria": ".3Z\u00e9\u4e2db.3Xb\n.\u00e9 \u4e2dXaYc\n",
+    "deadline": {
+     "$int": "1"
+    },
+    "description": "2 .0\u00e9Z1Z1X\u00e9\u00e9",
+    "reward": {
+     "$int": "1"
+    },
+    "title": "2abacYb3ZYX220",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #9"
+  },
+  {
+   "expect": "0x6a252262d389a0ecb5dbcac6652871dacd16e8cb270b0ef8acee7b7f0cb4fdd6",
+   "id": "v077",
+   "input": {
+    "criteria": "Zb.\u4e2d .2",
+    "deadline": {
+     "$int": "1700000000"
+    },
+    "description": "\nZ2aaZ.a2b.\u4e2d\u4e2dXb23Z1Z  \n0\n\u00e932\n\n2\u4e2dbYX\u00e90 c",
+    "reward": {
+     "$int": "1"
+    },
+    "title": "22\nb\u4e2d\u4e2dbY1311acb bc\n 0c\u00e9b",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #10"
+  },
+  {
+   "expect": "0x13b72aad205b2b460354633fed08faeee1609115d78d9f99f18d5b0c3cbd9c15",
+   "id": "v078",
+   "input": {
+    "criteria": "\n\u4e2d\u00e9",
+    "deadline": {
+     "$int": "1700000000"
+    },
+    "description": "\n\u00e9\nZ2Y\n.111\u00e9.YXc23330.X1ZY1 bZ\u00e9.X .0Xc\u00e9.Y2X",
+    "reward": {
+     "$int": "1000000000000"
+    },
+    "title": "\u00e9.\u00e9YY\u4e2daX\u4e2d\n  cZ32\u4e2d",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #11"
+  },
+  {
+   "expect": "0xd5a3920bfce83b2840a07d5e2b57ba46c66a8576431caa48776e38b04829e5e5",
+   "id": "v079",
+   "input": {
+    "criteria": " 1b",
+    "deadline": {
+     "$int": "1099511627776"
+    },
+    "description": "a3X  \u00e92\u4e2d1\u4e2d\u00e9cc \u4e2dY\u4e2dc1a1Z3b\u00e93  \u00e9X.3b\u00e9.Y",
+    "reward": {
+     "$int": "1606938044258990275541962092341162602522202993782792835301376"
+    },
+    "title": "cZ3301Y\u4e2d30\n Y.",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #12"
+  },
+  {
+   "expect": "0x4adf67c976040da223bfa3f61dbfec4bccaf910e3e4336f83b642480020a4ca6",
+   "id": "v080",
+   "input": {
+    "criteria": "bXc11\u00e9\u4e2d\n3aa\u00e90bXcX\u4e2d\u00e9YZ \nba122",
+    "deadline": {
+     "$int": "1700000000"
+    },
+    "description": "\u00e9Z.322a2",
+    "reward": {
+     "$int": "1606938044258990275541962092341162602522202993782792835301376"
+    },
+    "title": "1.Y .\u4e2d00",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #13"
+  },
+  {
+   "expect": "0x6a6c8fd0c6764d2aec0e9c084f00ac4384900add89f3d8bd8475cbde91662bbc",
+   "id": "v081",
+   "input": {
+    "criteria": "  b\u4e2d\n3\n\u00e912 0.1Y1\u00e90012",
+    "deadline": {
+     "$int": "1700000000"
+    },
+    "description": "ZZ3aX..ba\u00e9bac.XYa.c",
+    "reward": {
+     "$int": "1606938044258990275541962092341162602522202993782792835301376"
+    },
+    "title": "Xc.\u4e2d\u00e9a\u4e2d\u00e9.\ncaY3ZZ1a",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #14"
+  },
+  {
+   "expect": "0x040596f49a7d85dde0c73ae3c789db4647423c355ed8213151f2d88de5e1035f",
+   "id": "v082",
+   "input": {
+    "criteria": "\u00e9.1\u00e92 3aXbX\u00e9bX",
+    "deadline": {
+     "$int": "1099511627776"
+    },
+    "description": "c\n\u4e2d1bb3\n",
+    "reward": {
+     "$int": "1"
+    },
+    "title": "b.Zbc1\u00e9a 12XY.3bZ31a",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #15"
+  },
+  {
+   "expect": "0x95e6b2a2f0facc871c1848a4b09c49bdd7dd0453fdd77a4b34b7b970b82669ef",
+   "id": "v083",
+   "input": {
+    "criteria": "2.02\nX\u00e9a\na",
+    "deadline": {
+     "$int": "1099511627776"
+    },
+    "description": "2bYc...\u00e9 1a0c\u4e2d\u00e9\u00e91ZZa2bZ1Z.\n\nY0bX c.0X",
+    "reward": {
+     "$int": "999"
+    },
+    "title": "ca3c.",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #16"
+  },
+  {
+   "expect": "0x4efc457ca845d7c44f84eb1f6dc797a754afc1986aea914bc2fc4f5d85262f54",
+   "id": "v084",
+   "input": {
+    "criteria": "aX\n\n\u4e2d3.2\u4e2d",
+    "deadline": {
+     "$int": "1099511627776"
+    },
+    "description": "3Y1",
+    "reward": {
+     "$int": "1"
+    },
+    "title": "abZ.X23aYX\u4e2d",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #17"
+  },
+  {
+   "expect": "0x1ddbe038c80fb9aa55282c7c3ad2147f282c0bd8b74f54b818b8ec8f8e8fb464",
+   "id": "v085",
+   "input": {
+    "criteria": "Y.c0Zb3Z21Z \u00e9\u4e2dbb1",
+    "deadline": {
+     "$int": "1700000000"
+    },
+    "description": "3Yc .\n2.acX\u00e9\u00e9c33a3\u4e2dbYX2\u4e2d.01bZ11YZ2cY\nb.a0cbc23",
+    "reward": {
+     "$int": "1606938044258990275541962092341162602522202993782792835301376"
+    },
+    "title": ".00b 11YZ0 X\u00e9b\n3 2Yc\u00e9\u00e9.2",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #18"
+  },
+  {
+   "expect": "0xeeb03256f13b545e429c1d6628ba6d66a7582a2e183a5755887651081f9e8745",
+   "id": "v086",
+   "input": {
+    "criteria": "Za0\u00e93c2Y223b.\n1bZ\u4e2d \u00e9a00a2\n",
+    "deadline": {
+     "$int": "1099511627776"
+    },
+    "description": "aY2Y\u4e2dZ\u4e2d2ZX0Z\n\u4e2d3\n\n1",
+    "reward": {
+     "$int": "1000000000000"
+    },
+    "title": "c\u00e9c Y\na \u00e9..\u00e9X\n\nZc\u00e9 2b3aZaa bZ",
+    "token": "0x5fc5360d0400a0fd4f2af552add042d716f1d168"
+   },
+   "kind": "accept",
+   "note": "fuzz #19"
+  }
+ ]
+}

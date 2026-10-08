@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+_run.db*
+report.json
+node_modules/
