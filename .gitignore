@@ -3,3 +3,5 @@ __pycache__/
 _run.db*
 report.json
 node_modules/
+escrow9-bytecode-provenance/fixtures/out/
+escrow9-bytecode-provenance/fixtures/cache/

@@ -1,0 +1,26 @@
+[profile.default]
+# Scope this build to the escrow provenance fixtures only — the rest of the
+# repo is unrelated evidence and must not be compiled.
+src = "escrow9-bytecode-provenance/fixtures/src/src"
+test = "escrow9-bytecode-provenance/fixtures/empty-tests"
+script = "escrow9-bytecode-provenance/fixtures/empty-scripts"
+out = "escrow9-bytecode-provenance/fixtures/out"
+libs = ["escrow9-bytecode-provenance/fixtures/src/node_modules"]
+cache_path = "escrow9-bytecode-provenance/fixtures/cache"
+
+# The original build resolved `@openzeppelin/contracts/...` from node_modules.
+remappings = ["@openzeppelin/=escrow9-bytecode-provenance/fixtures/src/node_modules/@openzeppelin/"]
+
+solc = "0.8.29"
+optimizer = true
+optimizer_runs = 200
+evm_version = "paris"
+# The deployed runtime's metadata blob is 10 bytes: `a1 64 "solc" 43 0008 1d 000a`
+# i.e. CBOR map(1){ "solc": 0.8.29 } with NO ipfs entry. Reproducing it byte-for-byte
+# therefore requires bytecode_hash = "none"; with the "ipfs" default solc appends a
+# 34-byte IPFS digest and the metadata grows to 51 bytes (a 41-byte runtime delta).
+bytecode_hash = "none"
+cbor_metadata = true
+
+# Deterministic: no auto-detect of solc via pragma.
+auto_detect_solc = false
