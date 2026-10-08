@@ -5,3 +5,6 @@ report.json
 node_modules/
 escrow9-bytecode-provenance/fixtures/out/
 escrow9-bytecode-provenance/fixtures/cache/
+cache/
+out/
+_scratch/

@@ -1,0 +1,133 @@
+{
+  "bounty": "imdworks escrow 2 \u2014 reorg-safe bounty event indexer",
+  "generated_utc": "2026-10-08T14:58:36.162470+00:00",
+  "seed": 20261008,
+  "sqlite_version": "3.53.2",
+  "python": "3.14.6",
+  "seconds": 2.96,
+  "checks": [
+    {
+      "name": "S1  first pass applied every block",
+      "ok": true,
+      "detail": "blocks=20/20"
+    },
+    {
+      "name": "S1  redelivery applies nothing new",
+      "ok": true,
+      "detail": "applied=0 dupes=20"
+    },
+    {
+      "name": "S1  state equals fresh replay",
+      "ok": true,
+      "detail": "identical"
+    },
+    {
+      "name": "S2  out-of-order batch is buffered",
+      "ok": true,
+      "detail": "applied=0 buffered=6"
+    },
+    {
+      "name": "S2  gap fill drains the buffer",
+      "ok": true,
+      "detail": "applied=20"
+    },
+    {
+      "name": "S2  tail redelivery is a no-op",
+      "ok": true,
+      "detail": "applied=0"
+    },
+    {
+      "name": "S2  final state equals fresh replay",
+      "ok": true,
+      "detail": "identical"
+    },
+    {
+      "name": "S3  recovery replayed the lost suffix",
+      "ok": true,
+      "detail": "blocks=17 logs=9"
+    },
+    {
+      "name": "S3  state equals fresh replay after recovery",
+      "ok": true,
+      "detail": "identical"
+    },
+    {
+      "name": "S4  restart completes the batch",
+      "ok": true,
+      "detail": "blocks 10+10"
+    },
+    {
+      "name": "S4  state equals fresh replay",
+      "ok": true,
+      "detail": "identical"
+    },
+    {
+      "name": "S5 5-block reorg detected",
+      "ok": true,
+      "detail": "common=15 applied=6"
+    },
+    {
+      "name": "S5  state equals fresh canonical replay",
+      "ok": true,
+      "detail": "identical"
+    },
+    {
+      "name": "S5  orphaned branch effect is gone",
+      "ok": true,
+      "detail": "orphan_award=True now_award=False"
+    },
+    {
+      "name": "S5  new branch is indexed",
+      "ok": true,
+      "detail": "bounty4=yes"
+    },
+    {
+      "name": "S6  reorg that orphans a payout detected",
+      "ok": true,
+      "detail": "common=17"
+    },
+    {
+      "name": "S6  orphaned award credit is reversed",
+      "ok": true,
+      "detail": "w2 credit=0 (must be 0)"
+    },
+    {
+      "name": "S6  orphaned withdrawal is undone",
+      "ok": true,
+      "detail": "w2 withdrawals=[]"
+    },
+    {
+      "name": "S6  state equals fresh canonical replay",
+      "ok": true,
+      "detail": "identical"
+    },
+    {
+      "name": "S7  deep reorg detected",
+      "ok": true,
+      "detail": "common=15"
+    },
+    {
+      "name": "S7  shallow reorg detected",
+      "ok": true,
+      "detail": "common=19"
+    },
+    {
+      "name": "S7  state equals fresh canonical replay",
+      "ok": true,
+      "detail": "identical"
+    },
+    {
+      "name": "S8  post-restart sync converges",
+      "ok": true,
+      "detail": "identical"
+    },
+    {
+      "name": "S8  post-reorg block was indexed",
+      "ok": true,
+      "detail": "bounty9=yes"
+    }
+  ],
+  "passed": 24,
+  "failed": 0,
+  "result": "PASS"
+}

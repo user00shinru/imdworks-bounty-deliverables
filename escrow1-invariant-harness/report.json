@@ -1,0 +1,96 @@
+{
+  "bounty": "imdworks escrow 1 \u2014 stateful escrow accounting invariant harness",
+  "generated_utc": "2026-10-08T14:45:33.457683+00:00",
+  "toolchain": {
+    "forge": "forge Version: 1.7.1",
+    "solc": "Version: 0.8.37+commit.f401782d.Windows.msvc",
+    "seed": "0x20261008",
+    "invariant_runs": 1000,
+    "invariant_depth": 100,
+    "network": "none \u2014 local EVM only"
+  },
+  "cases": {
+    "correct": {
+      "suite_ok": true,
+      "passed_count": 6,
+      "failed_count": 0,
+      "failed_invariants": [],
+      "observed_invariants": [
+        "conservation_of_value",
+        "liabilities_match_model",
+        "locked_never_exceeds_created",
+        "no_double_payout",
+        "solvent_exact",
+        "split_matches_model"
+      ],
+      "label": "correct",
+      "command": "forge test --match-contract ^EscrowInvariantTest$",
+      "env": {
+        "FOUNDRY_INVARIANT_RUNS": "1000",
+        "FOUNDRY_INVARIANT_DEPTH": "100",
+        "FOUNDRY_FUZZ_SEED": "0x20261008"
+      },
+      "exit_code": 0,
+      "seconds": 41.41,
+      "raw_tail": "ariant_liabilities_match_model() (runs: 1000, calls: 100000, reverts: 0)\n\n\u256d----------+--------------+-------+---------+----------\u256e\n| Contract | Selector     | Calls | Reverts | Discards |\n+======================================================+\n| Handler  | addReward    | 12372 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | award        | 12498 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | cancel       | 12540 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | createBounty | 12592 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | expire       | 12575 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | submit       | 12502 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | warp         | 12546 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | withdraw     | 12375 | 0       | 0        |\n\u2570----------+--------------+-------+---------+----------\u256f\n\n[PASS] invariant_locked_never_exceeds_created() (runs: 1000, calls: 100000, reverts: 0)\n\n\u256d----------+--------------+-------+---------+----------\u256e\n| Contract | Selector     | Calls | Reverts | Discards |\n+======================================================+\n| Handler  | addReward    | 12372 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | award        | 12498 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | cancel       | 12540 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | createBounty | 12592 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | expire       | 12575 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | submit       | 12502 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | warp         | 12546 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | withdraw     | 12375 | 0       | 0        |\n\u2570----------+--------------+-------+---------+----------\u256f\n\n[PASS] invariant_no_double_payout() (runs: 1000, calls: 100000, reverts: 0)\n\n\u256d----------+--------------+-------+---------+----------\u256e\n| Contract | Selector     | Calls | Reverts | Discards |\n+======================================================+\n| Handler  | addReward    | 12372 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | award        | 12498 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | cancel       | 12540 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | createBounty | 12592 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | expire       | 12575 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | submit       | 12502 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | warp         | 12546 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | withdraw     | 12375 | 0       | 0        |\n\u2570----------+--------------+-------+---------+----------\u256f\n\n[PASS] invariant_solvent_exact() (runs: 1000, calls: 100000, reverts: 0)\n\n\u256d----------+--------------+-------+---------+----------\u256e\n| Contract | Selector     | Calls | Reverts | Discards |\n+======================================================+\n| Handler  | addReward    | 12372 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | award        | 12498 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | cancel       | 12540 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | createBounty | 12592 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | expire       | 12575 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | submit       | 12502 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | warp         | 12546 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | withdraw     | 12375 | 0       | 0        |\n\u2570----------+--------------+-------+---------+----------\u256f\n\n[PASS] invariant_split_matches_model() (runs: 1000, calls: 100000, reverts: 0)\n\n\u256d----------+--------------+-------+---------+----------\u256e\n| Contract | Selector     | Calls | Reverts | Discards |\n+======================================================+\n| Handler  | addReward    | 12372 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | award        | 12498 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | cancel       | 12540 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | createBounty | 12592 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | expire       | 12575 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | submit       | 12502 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | warp         | 12546 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | withdraw     | 12375 | 0       | 0        |\n\u2570----------+--------------+-------+---------+----------\u256f\n\nSuite result: ok. 6 passed; 0 failed; 0 skipped; finished in 40.31s (171.77s CPU time)\n\nRan 1 test suite in 40.31s (40.31s CPU time): 6 tests passed, 0 failed, 0 skipped (6 total tests)\n"
+    },
+    "mutant": {
+      "suite_ok": false,
+      "passed_count": 2,
+      "failed_count": 4,
+      "failed_invariants": [
+        "I1: liabilities != model: 2 != 1",
+        "I2: escrow undercollateralised: 1 < 2",
+        "I3: value not conserved: 23158794 != 11579397",
+        "I4: totalLocked != model open: 11579397 != 0"
+      ],
+      "observed_invariants": [
+        "conservation_of_value",
+        "liabilities_match_model",
+        "locked_never_exceeds_created",
+        "no_double_payout",
+        "solvent_exact",
+        "split_matches_model"
+      ],
+      "label": "mutant",
+      "command": "forge test --match-contract ^BrokenEscrowInvariantTest$",
+      "env": {
+        "FOUNDRY_INVARIANT_RUNS": "1000",
+        "FOUNDRY_INVARIANT_DEPTH": "100",
+        "FOUNDRY_FUZZ_SEED": "0x20261008"
+      },
+      "exit_code": 1,
+      "seconds": 40.81,
+      "raw_tail": "+---------+----------\u256e\n| Contract | Selector     | Calls | Reverts | Discards |\n+======================================================+\n| Handler  | addReward    | 12372 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | award        | 12498 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | cancel       | 12540 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | createBounty | 12592 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | expire       | 12575 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | submit       | 12502 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | warp         | 12546 | 0       | 0        |\n|----------+--------------+-------+---------+----------|\n| Handler  | withdraw     | 12375 | 0       | 0        |\n\u2570----------+--------------+-------+---------+----------\u256f\n\n[FAIL: I2: escrow undercollateralised: 1 < 2]\n\t[Sequence] (original: 2, shrunk: 2)\n\t\tsender=0x7a6f8f8835D1170a856dA4Fe98e731556b9d669A addr=[test/Handler.sol:Handler]0xF62849F9A0B5Bf2913b396098F7c7019b51A820a calldata=createBounty(uint256,uint256,uint256) args=[7055, 1, 3237998081 [3.237e9]]\n\t\tsender=0x0000000000000000000000000000000000001EBA addr=[test/Handler.sol:Handler]0xF62849F9A0B5Bf2913b396098F7c7019b51A820a calldata=cancel(uint256,uint256) args=[7, 32150458480994475481080599930 [3.215e28]]\n invariant_solvent_exact() (runs: 1, calls: 1, reverts: 1)\n[FAIL: I4: totalLocked != model open: 11579397 != 0]\n\t[Sequence] (original: 2, shrunk: 2)\n\t\tsender=0x00000000000000000000000000000000000000fa addr=[test/Handler.sol:Handler]0xF62849F9A0B5Bf2913b396098F7c7019b51A820a calldata=createBounty(uint256,uint256,uint256) args=[0, 11579397 [1.157e7], 473]\n\t\tsender=0x0000000000000000000000000000000000000EF4 addr=[test/Handler.sol:Handler]0xF62849F9A0B5Bf2913b396098F7c7019b51A820a calldata=cancel(uint256,uint256) args=[1, 11579397 [1.157e7]]\n invariant_split_matches_model() (runs: 1, calls: 1, reverts: 1)\nSuite result: FAILED. 2 passed; 4 failed; 0 skipped; finished in 39.69s (80.41s CPU time)\n\nRan 1 test suite in 39.69s (39.69s CPU time): 2 tests passed, 4 failed, 0 skipped (6 total tests)\n\nFailing tests:\nEncountered 4 failing tests in test/Invariant.t.sol:BrokenEscrowInvariantTest\n[FAIL: I3: value not conserved: 23158794 != 11579397]\n\t[Sequence] (original: 2, shrunk: 2)\n\t\tsender=0x00000000000000000000000000000000000000fa addr=[test/Handler.sol:Handler]0xF62849F9A0B5Bf2913b396098F7c7019b51A820a calldata=createBounty(uint256,uint256,uint256) args=[0, 11579397 [1.157e7], 473]\n\t\tsender=0x0000000000000000000000000000000000000EF4 addr=[test/Handler.sol:Handler]0xF62849F9A0B5Bf2913b396098F7c7019b51A820a calldata=cancel(uint256,uint256) args=[1, 11579397 [1.157e7]]\n invariant_conservation_of_value() (runs: 1, calls: 1, reverts: 1)\n[FAIL: I1: liabilities != model: 2 != 1]\n\t[Sequence] (original: 2, shrunk: 2)\n\t\tsender=0x7a6f8f8835D1170a856dA4Fe98e731556b9d669A addr=[test/Handler.sol:Handler]0xF62849F9A0B5Bf2913b396098F7c7019b51A820a calldata=createBounty(uint256,uint256,uint256) args=[7055, 1, 3237998081 [3.237e9]]\n\t\tsender=0x0000000000000000000000000000000000001EBA addr=[test/Handler.sol:Handler]0xF62849F9A0B5Bf2913b396098F7c7019b51A820a calldata=cancel(uint256,uint256) args=[7, 32150458480994475481080599930 [3.215e28]]\n invariant_liabilities_match_model() (runs: 1, calls: 1, reverts: 1)\n[FAIL: I2: escrow undercollateralised: 1 < 2]\n\t[Sequence] (original: 2, shrunk: 2)\n\t\tsender=0x7a6f8f8835D1170a856dA4Fe98e731556b9d669A addr=[test/Handler.sol:Handler]0xF62849F9A0B5Bf2913b396098F7c7019b51A820a calldata=createBounty(uint256,uint256,uint256) args=[7055, 1, 3237998081 [3.237e9]]\n\t\tsender=0x0000000000000000000000000000000000001EBA addr=[test/Handler.sol:Handler]0xF62849F9A0B5Bf2913b396098F7c7019b51A820a calldata=cancel(uint256,uint256) args=[7, 32150458480994475481080599930 [3.215e28]]\n invariant_solvent_exact() (runs: 1, calls: 1, reverts: 1)\n[FAIL: I4: totalLocked != model open: 11579397 != 0]\n\t[Sequence] (original: 2, shrunk: 2)\n\t\tsender=0x00000000000000000000000000000000000000fa addr=[test/Handler.sol:Handler]0xF62849F9A0B5Bf2913b396098F7c7019b51A820a calldata=createBounty(uint256,uint256,uint256) args=[0, 11579397 [1.157e7], 473]\n\t\tsender=0x0000000000000000000000000000000000000EF4 addr=[test/Handler.sol:Handler]0xF62849F9A0B5Bf2913b396098F7c7019b51A820a calldata=cancel(uint256,uint256) args=[1, 11579397 [1.157e7]]\n invariant_split_matches_model() (runs: 1, calls: 1, reverts: 1)\n\nEncountered a total of 4 failing tests, 2 tests succeeded\n\nTip: Run `forge test --rerun` to retry only the 4 failed tests\n\nFuzz seed: 0x20261008 (use `--fuzz-seed` to reproduce)\nWarning: Replayed invariant failure from \"C:/Users/Bisma/imdworks-deliverables/escrow1-invariant-harness/cache/invariant/failures/BrokenEscrowInvariantTest/invariant_split_matches_model\" file. \nRun `forge clean` or remove file to ignore failure and to continue invariant test campaign.\nWarning: Replayed invariant failure from \"C:/Users/Bisma/imdworks-deliverables/escrow1-invariant-harness/cache/invariant/failures/BrokenEscrowInvariantTest/invariant_conservation_of_value\" file. \nRun `forge clean` or remove file to ignore failure and to continue invariant test campaign.\nWarning: Replayed invariant failure from \"C:/Users/Bisma/imdworks-deliverables/escrow1-invariant-harness/cache/invariant/failures/BrokenEscrowInvariantTest/invariant_solvent_exact\" file. \nRun `forge clean` or remove file to ignore failure and to continue invariant test campaign.\nWarning: Replayed invariant failure from \"C:/Users/Bisma/imdworks-deliverables/escrow1-invariant-harness/cache/invariant/failures/BrokenEscrowInvariantTest/invariant_liabilities_match_model\" file. \nRun `forge clean` or remove file to ignore failure and to continue invariant test campaign.\n"
+    }
+  },
+  "checks": [
+    {
+      "check": "correct contract passes every invariant",
+      "ok": true,
+      "detail": "6 passed / 0 failed"
+    },
+    {
+      "check": "mutant contract is rejected by the harness",
+      "ok": true,
+      "detail": "4 invariant(s) failed: I1: liabilities != model: 2 != 1, I2: escrow undercollateralised: 1 < 2, I3: value not conserved: 23158794 != 11579397, I4: totalLocked != model open: 11579397 != 0"
+    },
+    {
+      "check": "harness is non-vacuous (same code both ways)",
+      "ok": true,
+      "detail": "6 invariants exercised"
+    },
+    {
+      "check": "at least 1,000 sequences at depth 100",
+      "ok": true,
+      "skipped": false,
+      "detail": "runs=1000 depth=100"
+    },
+    {
+      "check": "no network access required",
+      "ok": true,
+      "detail": "local EVM (foundry), vendored forge-std + openzeppelin"
+    }
+  ],
+  "result": "PASS"
+}
